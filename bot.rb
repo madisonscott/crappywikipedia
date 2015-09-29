@@ -13,10 +13,10 @@ class Bot
         @PAGE_NUM = 1000;
     
         @twitter = Twitter::REST::Client.new do |config|
-            config.consumer_key         = "nV3cpRS0pPfZzUSjqxVSLWsZW"
-            config.consumer_secret      = "FewQbV0CUR0Ljd494WbOujfuvWt1UMQbKa5Key1iFLFh0pwkQe"
-            config.access_token         = "3191672594-SyofYiKwQdBqf69fgZbkybouXb4H0vKKsMIyw9s"
-            config.access_token_secret  = "7nt4fkkSi64avbKnJepp7aoeOVEC07OxK6SBmYLXYRyBy"
+            config.consumer_key         = ""
+            config.consumer_secret      = ""
+            config.access_token         = ""
+            config.access_token_secret  = ""
         end
         
         # @mechanize = Mechanize.new
